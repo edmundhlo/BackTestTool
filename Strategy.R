@@ -1,5 +1,5 @@
 library( R6)
-
+Moo changes
 # Class to characterize database table that holds a given Data Item
 Strategy <- R6Class(
   
@@ -13,7 +13,7 @@ Strategy <- R6Class(
     },
     
     set_security_selection_alogorithm = function( function_pointer_to_selection_alogorithm )
-    {
+    {sss
       private$function_pointer_to_selection_alogorithm = function_pointer_to_selection_alogorithm;
     },
     
